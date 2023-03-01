@@ -18,6 +18,9 @@ BOARD_SEPOLICY_DIRS += device/google/gs201/sepolicy/tracking_denials
 
 PRODUCT_PRIVATE_SEPOLICY_DIRS += device/google/gs201/sepolicy/private
 
+# Flipendo
+BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/flipendo
+
 # system_ext
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += device/google/gs201/sepolicy/system_ext/public
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += device/google/gs201/sepolicy/system_ext/private
