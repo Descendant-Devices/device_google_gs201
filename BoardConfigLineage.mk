@@ -53,3 +53,4 @@ endif
 
 # Verified Boot
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
+TARGET_SHIP_PREBUILT_APEX += true
