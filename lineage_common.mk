@@ -30,9 +30,7 @@ PRODUCT_PACKAGES += \
 # Touch
 include hardware/google/pixel/touch/device.mk
 
-# GAPPS common capabilities declarations
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
-TARGET_INCLUDE_STOCK_ARCORE := true
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
-TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_SUPPORTS_CALL_RECORDING := true
+# Face Unlock
+PRODUCT_PACKAGES += \
+    FaceEnrollOverlay \
+    FaceEnrollSettingsOverlay
